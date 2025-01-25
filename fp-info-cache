@@ -1,4 +1,4 @@
-24454330421734824
+24459543847700025
 10102166A812A
 10102166A812A
 10102166A812A-2
@@ -6,6 +6,13 @@ Connector
 0
 24
 24
+ASCB-HTC2-0A309
+ASCBHTC20A309
+ PLCC-4 
+LED
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55019,6 +55026,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DM3BT-DSF-PEJS
+DM3BTDSFPEJS
+DM3BT-DSF-PEJS
+Connector
+0
+15
+15
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -90663,6 +90677,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+Selfmade
+AC0603FR-07130RL
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
