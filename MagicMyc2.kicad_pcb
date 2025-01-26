@@ -741,7 +741,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U3"
-			(at -5.338656 -3.075914 0)
+			(at -5.444722 -3.082986 0)
 			(layer "F.SilkS")
 			(uuid "512126bf-a51e-4b97-8612-a686cd6fcf6d")
 			(effects
@@ -1693,7 +1693,7 @@
 				)
 			)
 		)
-		(model "S:/KiCad/Downloads/LIB_DM3BT-DSF-PEJS/DM3BT-DSF-PEJS/3D/DM3BT-DSF-PEJS.stl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Card.3dshapes/microSD_HC_Hirose_DM3AT-SF-PEJM5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2010,7 +2010,7 @@
 		(at 66.25 68.45 135)
 		(tags "C0603C103M5RAC7411 ")
 		(property "Reference" "C2"
-			(at 0.777817 2.333452 -45)
+			(at 0.799031 2.411234 -45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "26e11455-feb7-410e-af48-23dceea643d0")
@@ -2610,7 +2610,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.00mm single row")
 		(property "Reference" "J10"
-			(at 0 -2.06 135)
+			(at 0 -2.2832 135)
 			(layer "F.SilkS")
 			(uuid "5d2fe4a4-8200-4422-9e7e-4586828f7195")
 			(effects
@@ -3750,7 +3750,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.00mm single row")
 		(property "Reference" "J4"
-			(at -0.848528 -2.252691 135)
+			(at -0.403051 -2.429468 0)
 			(layer "F.SilkS")
 			(uuid "30277ae4-9d54-4cfd-b073-c0fcebe9be67")
 			(effects
@@ -4660,7 +4660,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dec9fc04-0311-4608-bac5-a57dac28da8c")
+			(uuid "d694e655-3ace-418b-a3f5-d458fec6bc78")
 			(effects
 				(font
 					(size 1 1)
@@ -4671,7 +4671,7 @@
 		(property "Value" "MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "34b8e04f-8e52-49c8-8956-e61bed3a912f")
+			(uuid "613741c7-8316-43c0-86d6-d1f6d4935782")
 			(effects
 				(font
 					(size 1 1)
@@ -4728,7 +4728,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "93a9805b-ac68-427d-ba7d-4143debbcf77")
+			(uuid "19e17af2-2be0-4aed-921e-64220315df72")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4739,12 +4739,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1d1cf2c7-8f29-4ac8-9cf7-3c05e91c0b07")
+			(uuid "c1f1e880-b34d-4853-9d24-207f6cfda5fe")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "fc9ea53a-5747-489e-bdf5-eeefc8e1461f")
+			(uuid "e0c1fcf4-407d-45cf-9885-dcfb0da5841a")
 			(effects
 				(font
 					(size 1 1)
@@ -4759,7 +4759,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
-			(uuid "e4627c50-b1af-45fd-af81-d42ddbd73ced")
+			(uuid "31ba448a-f9ee-4549-b2a1-00b453147fb6")
 		)
 	)
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
@@ -5037,7 +5037,7 @@
 		(descr " PLCC-4 ")
 		(tags "LED")
 		(property "Reference" "LED1"
-			(at 0.247488 1.661702 45)
+			(at 0.98995 1.569778 -135)
 			(layer "F.SilkS")
 			(uuid "7876049f-124b-4159-8ad8-c3158cb9d0fb")
 			(effects
@@ -5351,7 +5351,7 @@
 		(at 70.862652 69.537348 -135)
 		(tags "C0603C103M5RAC7411 ")
 		(property "Reference" "C1"
-			(at -0.689214 1.767767 -45)
+			(at -0.887204 1.45664 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b0098a1b-aa20-400d-9031-71263c3d3c4c")
@@ -5632,6 +5632,17 @@
 				)
 			)
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_01005_0402Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 5 4 3)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -5910,7 +5921,7 @@
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dec9fc04-0311-4608-bac5-a57dac28da8c")
+			(uuid "027f70d2-06e6-446b-b2a4-2cf3283ac359")
 			(effects
 				(font
 					(size 1 1)
@@ -5921,7 +5932,7 @@
 		(property "Value" "MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 0 2.9 0)
 			(layer "F.Fab")
-			(uuid "34b8e04f-8e52-49c8-8956-e61bed3a912f")
+			(uuid "e7a2fe7c-3a50-464e-8f82-f9858c9e64f9")
 			(effects
 				(font
 					(size 1 1)
@@ -5978,7 +5989,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "93a9805b-ac68-427d-ba7d-4143debbcf77")
+			(uuid "a5c06eec-d26f-4b0f-8a5f-218e7cdf508c")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5989,12 +6000,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "1d1cf2c7-8f29-4ac8-9cf7-3c05e91c0b07")
+			(uuid "3f57b504-639a-4618-bdb7-f85b3ab3ea8a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "fc9ea53a-5747-489e-bdf5-eeefc8e1461f")
+			(uuid "82d3199c-a74f-423f-8559-701afa344345")
 			(effects
 				(font
 					(size 1 1)
@@ -6009,7 +6020,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
-			(uuid "e4627c50-b1af-45fd-af81-d42ddbd73ced")
+			(uuid "d465737b-7e21-4a08-bcdf-a3cf469986bd")
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
@@ -6019,7 +6030,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at -2.269813 -0.417193 45)
+			(at -2.2486 0.919239 45)
 			(layer "F.SilkS")
 			(uuid "cecce735-d2d0-4e06-af47-6129c145bf2e")
 			(effects
@@ -8630,7 +8641,7 @@
 		)
 		(fp_arc
 			(start 0.3048 -3.7465)
-			(mid 0 -3.441698)
+			(mid 0 -3.441697)
 			(end -0.3048 -3.7465)
 			(stroke
 				(width 0.0254)
@@ -9399,13 +9410,14 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "5W"
-		(at 94.15 80.13 45)
+		(at 93.93 78.61 0)
 		(layer "F.SilkS")
 		(uuid "91325a0a-fd1c-4fee-a055-6d34ee9744f2")
 		(effects
@@ -9423,7 +9435,8 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
