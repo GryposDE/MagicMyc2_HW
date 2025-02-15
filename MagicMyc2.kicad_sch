@@ -6376,8 +6376,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "? uF"
-			(at 104.394 41.402 90)
+		(property "Value" "0.1 uF"
+			(at 102.616 41.656 90)
 			(effects
 				(font
 					(size 1.524 1.524)
